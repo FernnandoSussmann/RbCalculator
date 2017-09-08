@@ -6,24 +6,7 @@ class Operation
     @result = 0.0
   end
 
-  attr_writer:result
-  attr_accessor:value2
-
-  def type()
-    @type
-  end
-
-  def value1()
-    @value1
-  end
-
-  def value2()
-    @value2
-  end
-
-  def result()
-    @result
-  end
+  attr_accessor:value2,:type,:value1,:result
 
   def sum_values()
     @result = @value1 + @value2
